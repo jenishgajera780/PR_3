@@ -6,16 +6,21 @@
 void main(){
 int j,e;
 
-clrscr();
 e = 0;
 
-printf("please write any number : ");
+printf("please type any number : ");
 scanf("%d",&j);
-while(j! = 0){
-e = e/10;
-j++;
+
+while(j!=0){
+j=j/10;
+e++;
+
 } 
 
+printf("__________________\n");
+printf("this digit is : %d\n",e);
+printf("~~~~~~~~~~~~~~~~~~");
 
 getch();
+
 }
