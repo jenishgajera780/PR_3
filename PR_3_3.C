@@ -1,0 +1,1 @@
+// PR Q3 write a program to find the sum of a first and last gigit of a number.
