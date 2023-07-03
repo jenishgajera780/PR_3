@@ -11,7 +11,7 @@ while(j>10){
 e = j/10;
 j = e;{
 i=e+n;
-printf("the number of first and last :",i);}
+printf("the sum of first and last number %d :",i);}
     
 }
 getch();
